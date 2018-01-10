@@ -1,0 +1,21 @@
+.sidebar {
+  background-color: gray;
+  position: fixed;
+  height: 100%;
+  width: 200px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  color: white;
+  padding: 15px;
+}
+
+button {
+  color: black;
+  margin-top: 20px;
+}
+
+.modal-content {
+  padding: 20px;
+  background-color: #F5F5DC;
+}

@@ -1,4 +1,8 @@
 <html ng-app='blocChat'>
+	<head>
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="/styles/main.css" />
+	</head>
     <body>
         <ui-view></ui-view>
 
@@ -18,8 +22,10 @@
             };
             firebase.initializeApp(config);
         </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap-tpls.min.js"></script>
         <script src="scripts/app.js"></script>
         <script src="scripts/room.js"></script>
         <script src="scripts/homeController.js"></script>
+        <script src="scripts/modalController.js"></script>
     </body>
 </html>

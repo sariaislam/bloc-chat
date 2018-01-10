@@ -1,4 +1,4 @@
-angular.module('blocChat', ['ui.router', 'firebase'])
+angular.module('blocChat', ['ui.router', 'firebase', 'ui.bootstrap'])
 .config(function($stateProvider, $locationProvider) {
     $locationProvider.html5Mode({enabled:true, requireBase:false});
     
@@ -8,4 +8,4 @@ angular.module('blocChat', ['ui.router', 'firebase'])
         controller:'HomeCtrl as home',
         templateUrl:'/templates/home.html'
     });
-})
+});
